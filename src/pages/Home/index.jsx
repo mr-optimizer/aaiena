@@ -52,7 +52,7 @@ let features = [
   {
     src: "/images/Image12.png",
     title: "VIRTUAL TRIAL ROOM",
-  }
+  },
 ];
 const Home = () => {
   return (
@@ -82,11 +82,13 @@ const Home = () => {
         </ul>
       </nav>
       <section className="hero_section" id="hero">
-        <img
-          className="down_arrow"
-          src="/images/extras/down-arrow.png"
-          alt="down arrow"
-        ></img>
+        <a href="#announcement">
+          <img
+            className="down_arrow"
+            src="/images/extras/down-arrow.png"
+            alt="down arrow"
+          ></img>
+        </a>
       </section>
       <section className="announcement_section" id="announcement">
         <h2 className="header_primary">Announcement</h2>
@@ -96,6 +98,7 @@ const Home = () => {
               src={item.src}
               title={item.title}
               text={item.text}
+              key={index}
             />
           ))}
         </div>
@@ -104,18 +107,27 @@ const Home = () => {
         <h2 className="header_primary">New Arrival</h2>
         <div className="card_container">
           {newArrivals.map((item, index) => (
-            <Card src={item.src} title={item.title} />
+            <Card src={item.src} title={item.title} key={index} />
           ))}
         </div>
       </section>
       <section className="features_section" id="features">
         <div className="features_left">
-          <img className="features_left_img" src="/images/Image8.png" alt="features"/>
+          <img
+            className="features_left_img"
+            src="/images/Image8.png"
+            alt="features"
+          />
         </div>
         <div className="features_right">
-            {features.map((item, index) => (
-              <Card src={item.src} title={item.title} isSmall={true} />
-            ))}
+          {features.map((item, index) => (
+            <Card
+              src={item.src}
+              title={item.title}
+              isSmall={true}
+              key={index}
+            />
+          ))}
         </div>
       </section>
     </div>

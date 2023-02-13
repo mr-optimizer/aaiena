@@ -6,9 +6,10 @@
     align-items: center;
     box-shadow: 0.3rem 10px 10px rgba(0, 0, 0, 0.1);
     font-size: 2rem;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 1rem 0px 1rem;
     letter-spacing: 1.1px;
 }
+
 
 .nav_logo {
     width: 15rem;
@@ -30,6 +31,7 @@
     text-decoration: none;
     color: black;
 }
+
 /* /////////////////////////////// */
 
 /* Hero section */
@@ -61,7 +63,7 @@
 .announcement_section {
     background-color: #167f87;
     color: aliceblue;
-    padding: 7rem 10rem;
+    padding: 9rem 10rem;
     padding-bottom: 15rem;
 }
 
@@ -78,15 +80,21 @@
     flex-wrap: wrap;
     align-items: center;
     overflow: hidden;
+    gap: 2rem;
 }
 
 .features_left_img {
     height: 100vh;
 }
 
+.features_left {
+    display: flex;
+    justify-content: center;
+}
+
 .features_right {
     width: 50%;
-    padding: 7rem;
+    padding: 5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -96,9 +104,40 @@
 
 .card_container {
     display: flex;
-    justify-content: space-between;
-    gap: 10rem;
+    justify-content: center;
+    gap: 12rem;
     align-items: center;
     flex-wrap: wrap;
     margin-top: 7rem;
+}
+
+@media screen and (max-width: 68.75em) {
+    .features_right {
+        width: 100%;
+        padding: 0rem 0rem;
+    }
+
+    .features_left_img {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 62.5em) {
+    .nav_bar {
+        justify-content: center;
+        /* padding: 0px 0rem 0px 0rem; */
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 31.25em) {
+
+    .features_left_img {
+        width: 150vw;
+    }
+
+    .features_right {
+        width: 100%;
+        padding: 3rem 0rem;
+    }
 }
