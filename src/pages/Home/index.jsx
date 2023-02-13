@@ -77,7 +77,7 @@ const Home = () => {
             <a href="#features">Ethnic</a>
           </li>
           <li className="nav_list_item">
-            <a href="#">Sportswear</a>
+            <a href="#features">Sportswear</a>
           </li>
         </ul>
       </nav>

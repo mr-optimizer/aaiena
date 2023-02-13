@@ -1,11 +1,13 @@
+/* Nav Bar */
 .nav_bar {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     box-shadow: 0.3rem 10px 10px rgba(0, 0, 0, 0.1);
-    font-size: 1.7rem;
+    font-size: 2rem;
     padding: 0px 10px 0px 10px;
+    letter-spacing: 1.1px;
 }
 
 .nav_logo {
@@ -28,6 +30,7 @@
     text-decoration: none;
     color: black;
 }
+/* /////////////////////////////// */
 
 /* Hero section */
 
@@ -58,13 +61,13 @@
 .announcement_section {
     background-color: #167f87;
     color: aliceblue;
-    padding: 9rem;
+    padding: 7rem 10rem;
     padding-bottom: 15rem;
 }
 
 /* Nwe Arrival Section */
 .new_arrival_section {
-    padding: 7rem;
+    padding: 7rem 10rem;
 }
 
 /* Features Section */
@@ -72,23 +75,23 @@
     background-color: #167f87;
     color: aliceblue;
     display: flex;
-    /* flex-wrap: wrap; */
-    height: 100vh;
+    flex-wrap: wrap;
+    align-items: center;
     overflow: hidden;
 }
 
-.features_right_img {
-    height: 15rem;
-
+.features_left_img {
+    height: 100vh;
 }
 
 .features_right {
+    width: 50%;
     padding: 7rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    gap: 3rem;
+    gap: 5rem;
 }
 
 .card_container {
