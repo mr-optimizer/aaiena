@@ -17,3 +17,17 @@
     font-weight: bold;
     margin: 1rem 1rem;
 }
+
+
+@media screen and (max-width: 31.25em) {
+    .announcement_card{
+        width: 27rem;
+        height: 32rem;
+        font-size: 1.5rem;
+    }
+    .announcement_card_img{
+        width: 27rem;
+        height: 32rem;
+    }
+
+}

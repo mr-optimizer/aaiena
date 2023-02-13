@@ -71,13 +71,10 @@ const Home = () => {
             <a href="#announcement">Sale</a>
           </li>
           <li className="nav_list_item">
-            <a href="#new_arrival">Casual Shirt</a>
+            <a href="#new_arrival">Shirts</a>
           </li>
           <li className="nav_list_item">
-            <a href="#features">Ethnic</a>
-          </li>
-          <li className="nav_list_item">
-            <a href="#features">Sportswear</a>
+            <a href="#features">Features</a>
           </li>
         </ul>
       </nav>
