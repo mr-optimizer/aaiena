@@ -1,0 +1,37 @@
+.card{
+    position: relative;
+    width: 25rem;
+    height: 35rem;
+    font-size: 1.3rem;
+    box-shadow: 3px 3px 2px rgba(0,0,0,0.1);
+}
+.card_small{
+    position: relative;
+    width: 15rem;
+    height: 15rem;
+    font-size: 1.3rem;
+    box-shadow: 3px 3px 2px rgba(0,0,0,0.1);
+}
+.card_img{
+    width: 25rem;
+    height: 35rem;
+    object-fit: cover;
+    border-radius: 3px;
+}
+.card_img_small{
+    width: 20rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 3px;
+}
+.card_title{
+    position: absolute;
+    bottom: 0;
+    font-size: 1.7rem;
+    background-color: rgba(0, 0, 0, 0.35);
+    color: white;
+    width: 90%;
+    font-weight: bold;
+    text-align: center;
+    margin: 1rem;
+}

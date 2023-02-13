@@ -1,33 +1,37 @@
-.nav_bar{
+.nav_bar {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0.3rem 10px 10px rgba(0,0,0,0.1);
+    box-shadow: 0.3rem 10px 10px rgba(0, 0, 0, 0.1);
     font-size: 1.7rem;
     padding: 0px 10px 0px 10px;
 }
-.nav_logo{
+
+.nav_logo {
     width: 15rem;
 }
-.nav_list{
+
+.nav_list {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav_list_item{
+
+.nav_list_item {
     color: black;
     list-style: none;
     margin: 0 15px;
 }
-.nav_list_item a{
+
+.nav_list_item a {
     text-decoration: none;
     color: black;
 }
 
 /* Hero section */
 
-.hero_section{
+.hero_section {
     background-image: url("./../../../public/images/Image1.png");
     height: 85vh;
     background-repeat: no-repeat;
@@ -35,7 +39,7 @@
     background-position: center;
 }
 
-.down_arrow{
+.down_arrow {
     width: 6rem;
     position: absolute;
     left: 50%;
@@ -51,13 +55,43 @@
 
 /* Announcement Section */
 
-.announcement_section{
+.announcement_section {
     background-color: #167f87;
     color: aliceblue;
     padding: 9rem;
     padding-bottom: 15rem;
 }
-.card_container{
+
+/* Nwe Arrival Section */
+.new_arrival_section {
+    padding: 7rem;
+}
+
+/* Features Section */
+.features_section {
+    background-color: #167f87;
+    color: aliceblue;
+    display: flex;
+    /* flex-wrap: wrap; */
+    height: 100vh;
+    overflow: hidden;
+}
+
+.features_right_img {
+    height: 15rem;
+
+}
+
+.features_right {
+    padding: 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3rem;
+}
+
+.card_container {
     display: flex;
     justify-content: space-between;
     gap: 10rem;

@@ -1,16 +1,16 @@
-.card{
+.announcement_card{
     position: relative;
     width: 23rem;
     height: 25rem;
     font-size: 1.3rem;
 }
-.card_img{
+.announcement_card_img{
     width: 23rem;
     height: 25rem;
     object-fit: cover;
     border-radius: 3px;
 }
-.card_title{
+.announcement_card_title{
     position: absolute;
     bottom: 0;
     font-size: 1.7rem;
