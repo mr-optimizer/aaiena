@@ -67,14 +67,14 @@
     padding-bottom: 15rem;
 }
 
-/* Nwe Arrival Section */
+/* New Arrival Section */
 .new_arrival_section {
-    padding: 7rem 10rem;
+    padding: 7rem 9rem;
 }
 
 /* Features Section */
 .features_section {
-    background-color: #167f87;
+    background-color: #106a71;
     color: aliceblue;
     display: flex;
     flex-wrap: wrap;
@@ -105,7 +105,7 @@
 .card_container {
     display: flex;
     justify-content: center;
-    gap: 12rem;
+    gap: 13rem;
     align-items: center;
     flex-wrap: wrap;
     margin-top: 7rem;
@@ -125,7 +125,7 @@
 @media screen and (max-width: 62.5em) {
     .nav_bar {
         justify-content: center;
-        /* padding: 0px 0rem 0px 0rem; */
+        padding-bottom: 1.5rem;
         font-size: 2rem;
     }
 }
