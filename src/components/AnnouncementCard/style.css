@@ -1,0 +1,19 @@
+.card{
+    position: relative;
+    width: 23rem;
+    height: 25rem;
+    font-size: 1.3rem;
+}
+.card_img{
+    width: 23rem;
+    height: 25rem;
+    object-fit: cover;
+    border-radius: 3px;
+}
+.card_title{
+    position: absolute;
+    bottom: 0;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: 1rem 1rem;
+}

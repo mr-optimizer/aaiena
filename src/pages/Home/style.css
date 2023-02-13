@@ -1,0 +1,67 @@
+.nav_bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0.3rem 10px 10px rgba(0,0,0,0.1);
+    font-size: 1.7rem;
+    padding: 0px 10px 0px 10px;
+}
+.nav_logo{
+    width: 15rem;
+}
+.nav_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_list_item{
+    color: black;
+    list-style: none;
+    margin: 0 15px;
+}
+.nav_list_item a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Hero section */
+
+.hero_section{
+    background-image: url("./../../../public/images/Image1.png");
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.down_arrow{
+    width: 6rem;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, 70%);
+    font-size: 3rem;
+    color: black;
+    cursor: pointer;
+}
+
+
+/* ///////////////////////////////////// */
+
+/* Announcement Section */
+
+.announcement_section{
+    background-color: #167f87;
+    color: aliceblue;
+    padding: 9rem;
+    padding-bottom: 15rem;
+}
+.card_container{
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 7rem;
+}
